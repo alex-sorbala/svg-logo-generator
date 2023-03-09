@@ -10,7 +10,7 @@
   ---
   ## Description
   This Node.js application generates a logo in SVG format using user input.  
-  - Link to video walk-through:
+  - Link to video walk-through: https://drive.google.com/file/d/1nZjFsdKvRstEs6JQtFDPX8_mlbZ4Je5m/view
 
   ## Installation
   Install inquirer version 8.2.4 and add it to the list of dependencies by running `npm i inquirer@8.2.4`
@@ -25,6 +25,10 @@
   Simply start the application `node index.js` and follow the prompts
 
 ---
-![Gif]()
+![Gif](./SVG_Generator.gif)
+---
+![Command line](./SVG_Bash_Screenshot.png)
+---
+![Sample Logo](./sampleLogo.svg) ![Sample Logo 2](./sampleLogo2.svg)
 
 

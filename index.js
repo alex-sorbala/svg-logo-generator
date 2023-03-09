@@ -10,10 +10,16 @@ const questions = [
     type: 'input',
     message: 'Enter a 3 letter abbreviation',
     name: 'text',
+    validate: function (input){
+        if(input.length > 3){
+            return "Should not be more than 3 characters"
+        }
+        return true;
+    }
     },
     {
     type: 'input',
-    message: 'Provide a text color name or hex:',
+    message: 'Provide a text color name or #hex:',
     name: 'textColor',
     },
     {
@@ -24,7 +30,7 @@ const questions = [
     },
     {
     type: 'input',
-    message: 'Enter a background color name or hex:',
+    message: 'Enter a background color name or #hex:',
     name: 'background',
     }
 ];
@@ -41,7 +47,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then((response) =>
-        writeToFile('test.svg', generateSVG(response))
+        writeToFile('new-Logo.svg', generateSVG(response))
     );
 }
 
