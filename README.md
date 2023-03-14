@@ -29,6 +29,6 @@
 ---
 ![Command line](./SVG_Bash_Screenshot.png)
 ---
-![Sample Logo](./sampleLogo.svg) ![Sample Logo 2](./sampleLogo2.svg)
+![Sample Logo](./examples/sample_Trinagle_Logo.svg) ![Sample Logo 2](./examples/sample_Circle_Logo.svg) ![Sample Logo 2](./examples/sample_Square_Logo.svg)
 
 
